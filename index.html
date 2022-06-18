@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Das Criptomoedas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <img src="images/logo-cdc.png" alt="Logotipo do CDC" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Mercado</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="projectos.html">Projetos</a></li>
+                <li><a href="sobre.html">Sobre Nós<script></script></a></li>
+            </ul>
+        </nav>
+
+        <div class="presentation">
+            <h1>Casa Das <br> Criptomoedas</h1>
+            <p>Construindo o ecosistema Crypto de Moçambique!</p> <br>
+            <h2>APRENDER sobre <span>Crypto</span></h2>
+            <h2>COMPRAR & VENDER <span>Crypto</span></h2>
+            <a href="#" class="btn">Aprender</a>
+            <a href="#" class="btn">Comprar & Vender</a>
+        </div>
+
+        <div class="coinlist">
+            <div class="coin">
+                <img src="images/bitcoin.png" alt="">
+                <div>
+                    <h3>$ <span id="bitcoin"></span> </h3>
+                    <p>Bitcoin</p>
+                </div>
+            </div>
+            <div class="coin">
+                <img src="images/ethereum.png" alt="">
+                <div>
+                    <h3>$ <span id="ethereum"></span> </h3>
+                    <p>Ethereum</p>
+                </div>
+            </div>
+            <div class="coin">
+                <img src="images/dogecoin.png" alt="">
+                <div>
+                    <h3>$ <span id="dogecoin"></span> </h3>
+                    <p>Dogecoin</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="content">
+        <div class="content-text">
+            <div class="visao" data-animar="left" onscroll="animarScroll()">
+                <article id="visaoTexto">
+                    <h1>Visão</h1>
+                    <p>Pretendemos nos tornar a força principal na transformação da economia Moçambicana através da adopção da indústria cripto.</p>
+                </article>
+                <div id="visaoImagem" data-animar="left">
+                    <img src="images/lamp.png" alt="Imagem de uma lampada da Casa Das Criptomoedas">
+                </div>
+            </div>
+            <div class="missao" data-animar="right">
+                <article id="missaoTexto">
+                    <h1>Missão</h1>
+                        <p>Dedicamo-nos a educar sobre criptomoedas, avaliar projectos de criptomoedas, aconselhar indivíduos ou empresas interessadas em criptomoedas, desenvolver produtos de criptomoedas e consequentemente ajudar a organizar o campo das criptomoedas em Moçambique. </p>
+                </article>
+                <div id="missaoImagem" data-animar="right">
+                    <img src="images/mission.png" alt="Imagem de Missão da Casa Das Criptomoedas">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        <p>&copy; Casa Das Criptomoedas - 2022 </p>
+    </footer>
+
+    <script src="script/getcoin.js"></script>
+</body>
+</html>

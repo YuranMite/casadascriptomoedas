@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    width: 100%;
+    background-color: rgb(23, 9, 61);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+nav{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    background-color: rgb(23, 9, 61);
+    z-index: 99;
+}
+.logo{
+    position: relative;
+    left: 80px;
+    width: 50px;
+    cursor: pointer;
+}
+nav ul{
+    position: relative;
+    left: 80px;
+    flex: 1;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.content{
+    margin: auto;
+    height: 200vh;
+    width: 70%;
+    background-color: #fff;
+    box-shadow: 5px 8px 20px 5px goldenrod;
+    color: #000;
+}
+.content-text{
+    margin: auto;
+    width: 80%;
+    text-align: justify;
+}
+header{
+    margin:auto;
+    text-align: center;
+    background-color: goldenrod;
+    width: 100%;
+    height: 100px;
+    margin-top: -20px;
+    margin-bottom: 15px;
+}
+header h1{
+    margin: auto;
+    width: 60%;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgb(23, 9, 61);
+    background-color: rgb(241, 221, 103);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-weight: 800;
+}
+#projectosTexto{
+    position: relative;
+    left: 10px;
+    font-size: 2em;
+    color: rgb(23, 9, 61);
+    text-transform: lowercase;
+    font-weight: 900;
+}
+.casaApp{
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+#casaApptexto{
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 400px;
+    text-align: justify;
+    width: 50%;
+}
+.casaVirtual{
+    position: relative;
+    top: 20px;
+    bottom: 0px;
+    left: 20px;
+}
+#casaVirtualtexto{
+    position: absolute;
+    display: block;
+    width: 50%;
+    top: 0px;
+    left: 400px;
+}
+.cryptoMoz{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    bottom: 0px;
+}
+#cryptoMoztexto{
+    position: absolute;
+    display: block;
+    width: 50%;
+    top: -20px;
+    left: 400px;
+}
+footer{
+    color: #fff;
+    font-weight: bolder;
+    background-color: #555555;
+    padding: 20px;
+}

@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background-color: rgb(23, 9, 61);
+}
+.container{
+    width: 100%;
+    background-color: rgb(23, 9, 61);
+    color: #fff;
+}
+nav{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    background-color: rgb(23, 9, 61);
+    z-index: 99;
+}
+.logo{
+    position: relative;
+    left: 80px;
+    width: 50px;
+    cursor: pointer;
+}
+nav ul{
+    position: relative;
+    left: 80px;
+    flex: 1;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.content{
+    margin: auto;
+    height: 140vh;
+    width: 1000px;
+    background-color: #fff;
+    box-shadow: 5px 8px 20px 5px goldenrod;
+    color: #000;
+}
+.content-text{
+    margin: auto;
+    width: 800px;
+    text-align: justify;
+}
+header{
+    margin:auto;
+    text-align: center;
+    background-color: goldenrod;
+    width: 100%;
+    height: 100px;
+    margin-top: -20px;
+    margin-bottom: 15px;
+}
+header h1{
+    margin: auto;
+    width: 60%;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgb(23, 9, 61);
+    background-color: rgb(241, 221, 103);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-weight: 800;
+}
+footer{
+    color: #fff;
+    font-weight: bolder;
+    background-color: #555555;
+    padding: 20px;
+}
+.member{
+    padding: 20px;
+    width: 50%;
+    height: 600px;
+    border: 0.5px solid rgba(71, 68, 68, 0.5);
+    border-radius: 5%;
+}
+.member-text{
+    position: relative;
+    top: 15px;
+}
+.member-text h1{
+    color: rgb(23, 9, 61);
+}
+.member-social{
+    position: relative;
+    top: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.member-1{
+    margin: -600px 0px 50px 420px;
+    padding: 20px;
+    width: 50%;
+    height: 600px;
+    border: 0.5px solid rgba(71, 68, 68, 0.5);
+    border-radius: 5%;
+}
+.member-text-1{
+    position: relative;
+    top: 15px;
+}
+.member-text-1 h1{
+    color: rgb(23, 9, 61);
+}
+.member-social-1{
+    position: relative;
+    top: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn{
+    padding: 10px;
+    border: none;
+    border-radius: 5%;
+}

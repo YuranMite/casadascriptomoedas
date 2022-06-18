@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: url(../images/background.png);
+    background-position: center;
+    background-size: cover;
+    padding: 0 7%;
+    color: #fff;
+}
+nav{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+nav ul{
+    flex: 1;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.presentation {
+    margin-top: 12%;
+}
+.presentation  h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.presentation  span{
+    color: goldenrod;
+}
+.presentation  p{
+    line-height: 22px;
+    font-size: 20px;
+}
+.presentation  .btn{
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 20px;
+    background: goldenrod;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+.coinlist{
+    position: absolute;right: 10%;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+.coin{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 0 15px;
+    color: goldenrod;
+    border: 1px solid #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+.coin img{
+    width: 40px;
+    margin-right: 10px;
+}
+.coin h3{
+    color: #fff;
+    margin-bottom: 5px;
+}
+.content{
+    margin: auto;
+    height: 110vh;
+    width: 1000px;
+    color: #000;
+    background: rgb(31, 13, 54);
+    box-shadow: 5px 8px 20px 5px #555555;
+    text-align: justify;
+}
+.content-text{
+    margin: auto;
+    width: 900px;
+}
+.visao{
+    position: relative;
+    top: 20px;
+    left: 40px;
+    background-image: linear-gradient(200deg, goldenrod, chocolate);
+    width: 400px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 5%;
+}
+#visaoTexto{
+    position: inherit;
+    left: 300px;
+    top: -20px;
+    background-color: #faf4f1;
+    width: 350px;
+    height: auto;
+    padding: 20px;
+    margin: 40px 0px 0px -130px;
+    box-shadow: -5px 2px 7px 2px #555555;
+    border-radius: 25px;
+    text-align: justify;
+}
+#visaoImagem{
+    position: relative;
+    display: block;
+    top: -200px;
+    left: 600px;
+}
+.missao{
+    position: relative;
+    top: 120px;
+    left: 440px;
+    background-image: linear-gradient(200deg, goldenrod, chocolate);
+    width: 425px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 5%;
+}
+#missaoTexto{
+    position: inherit;
+    right: 50px;
+    top: -35px;
+    background-color: #faf4f1;
+    width: 350px;
+    height: auto;
+    padding: 20px;
+    margin: 40px 0px 0px -130px;
+    box-shadow: -5px 2px 7px 2px #555555;
+    border-radius: 25px;
+    text-align: justify;
+}
+#missaoImagem{
+    position: relative;
+    display: block;
+    top: -250px;
+    right: 400px;
+}
+footer{
+    color: #fff;
+    font-weight: bolder;
+    background-color: #555555;
+    padding: 20px;
+}
